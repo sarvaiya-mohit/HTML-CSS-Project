@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    margin: auto;
+    height: 500px;
+    margin: auto;
+    background-color: #ffb30e;
+}
+.font{
+    font-size: 50px;
+}

@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Source Sans Pro","Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #F9FAFD;
+}
+
+.navbar{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar b{
+    opacity: 0.7;
+}
+
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-logo h1{
+    font-size: 1.5em;
+        background: linear-gradient(50deg, #fb3c00, #ffb800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-address i{
+    color: #ffba25 ;
+}
+
+.nav-search input{
+      color: #FFB30E ;
+    background-color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+   outline: none;
+}
+.nav-search input:focus{
+     outline: 3px solid #ffb30e4f;
+}
+.nav-search input::-webkit-input-placeholder{
+    color: gainsboro;
+    font-weight: 700;
+}
+
+.nav-search{
+     display: flex;
+    gap: 5px;
+}
+
+.nav-login{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #FFB30E ;
+    background-color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+/* footer css started  */
+
+footer{
+    margin-top: 100px;
+    background-color: #272727;
+    padding: 60px 0px;
+}
+
+.footer{
+    max-width: 1320px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.5);
+  
+}
+
+.footTop{
+       padding-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.294)
+}
+
+.d-flex{
+    display: flex;
+}
+
+.foot{
+    width: 20%;
+}
+
+.foot1{
+    width: 15%;
+}
+
+.foot1-2{
+    width: 40%;
+}
+
+.foot-links{
+    list-style: none;
+}
+.foot-links li{
+    margin-bottom:10px;
+}
+
+.foot-links a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footBottom{
+      padding-top: 20px;
+}
+
+.bold{
+    color: white;
+}
+
+.logo{
+    font-size: 19.8px;
+    margin: 0px 0px 8px;
+}
+
+.fa-brands.fa-instagram{
+    font-size: 28px;
+    letter-spacing: 9px;
+}
+
+.ri-facebook-circle-fill{
+    font-size: 28px;
+    letter-spacing: 9px;
+}
+
+.ri-twitter-fill{
+    font-size: 28px;
+}
+
+.font{
+    font-size: 25px;
+}
+
+.foot1-2 input{    
+      color: white;
+    background-color:#616161;
+    padding: 5px 10px;
+    font-weight: 600;
+    height: 40px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+   outline: none;
+}
+
+.foot1-2 input:focus{
+     outline: 3px solid #ffb30e4f;
+}
+
+.btn{
+    color: white;
+    background-color: #ffb30e;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    color: rgb(58, 47, 47);
+}
+
+.box{
+    color: white;
+}
+
+.heart{
+    justify-content: end;
+    display: flex;
+}
